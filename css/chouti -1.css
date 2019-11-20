@@ -1,0 +1,51 @@
+/*标题区域60*470， 内容区域（图片） 590*470 */
+
+.ctboxs {
+	width: 590px;
+	height: 710px;
+	position: relative;
+	overflow: hidden;
+	border: 10px solid orange;
+}
+.ctboxs .ctbox {
+	width: 590px;
+	height: 530px;
+	position: absolute;
+	top: 0;
+}
+.ctboxs .ct1 {
+	top: 0;
+}
+.ctboxs .ct2 {
+	top:530px;
+	transition: 2s linear;
+
+}
+.ctboxs .ct3 {
+	top: 590px;
+	transition: 2s linear;
+}
+.ctboxs .ct4 {
+	top: 650px;
+	transition: 2s linear;
+}
+.ctboxs .ctbox .title {
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	/* line-height: 22px; */
+	padding: 15px 142px;
+	cursor: pointer;
+}
+.ctboxs .ct1 {
+	background: rgb(0, 0, 127);
+}
+.ctboxs .ct2{
+	background: rgb(238, 136, 0);
+}
+.ctboxs .ct3{
+	background: rgb(126, 127, 0);
+}
+.ctboxs .ct4{
+	background: rgb(35, 97, 173);
+}
